@@ -1,0 +1,69 @@
+<!--root_index.html-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CS Notes - Computer Networks</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Smit Gabani">
+        <meta name="description" content="CS Educational Website">
+        <!--meta http-equiv="refresh" content="1"-->
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="media/sg.ico" />        
+    </head>
+    <body>
+        <div class="content">
+            <header class="header">
+                <h1> CS Notes <small style="font-size: small;">by SG</small> | Computer Networks</h1>
+            </header>
+            <article class="m-container">                
+                <h2>Algorithms</h2>
+                <article class="s-content">
+                    <article class="sub-top"><h3><a href="#searching">Searching</a></h3>
+
+                    </article> 
+                    <article class="sub-top"><h3><a href="#sorting">Sorting</a></h3>
+
+                    </article> 
+                    <article class="sub-top"><h3>Graphs</h3>
+                    
+                    </article> 
+                    <article class="sub-top"><h3>Greedy</h3>
+                    
+                    </article>    
+                </article>                        
+                <div id="searching"><h3>Searching</h3>
+                    <div class="tab">
+                        <button class="tablinks" onclick="openLan(event, 'python3')" id="defaultOpen">Python3</button>
+                        <button class="tablinks" onclick="openLan(event, 'javascript')">Javascript</button>
+                        <button class="tablinks" onclick="openLan(event, 'cpp')">C++</button>                      
+                    </div>
+                    <div id="python3" class="tabcontent">                        
+                        <span onclick="this.parentElement.style.display='none'" class="topright">X</span>
+                        <button onclick="copyTxt(event, 'tpython3')" class="cpbtn"><img src="media/copy.png"></button>
+                        <textarea id="tpython3">python3</textarea>
+                    </div>
+                    <div id="javascript" class="tabcontent">
+                        <span onclick="this.parentElement.style.display='none'" class="topright">X</span>
+                        <button onclick="copyTxt(event, 'tjavascript')" class="cpbtn"><img src="media/copy.png"></button>
+                        <textarea id="tjavascript">javascript</textarea>
+                    </div>
+                    <div id="cpp" class="tabcontent">
+                        <span onclick="this.parentElement.style.display='none'" class="topright">X</span>
+                        <button onclick="copyTxt(event, 'tcpp')" class="cpbtn"><img src="media/copy.png"></button>
+                        <textarea id="tcpp">C++</textarea>
+                    </div>
+
+                <div id="sorting"><h3>Sorting</h3></div><hr>                         
+            </article>
+            <aside class="sidebar s-left">Related Topics</aside>
+            <aside class="sidebar s-right">All Topics</aside>            
+            <footer class="footer">
+                <h2>Made and designed by Smit Gabani</h2>
+                Contact me!<br>
+                <a href="mailto:gabanismit11@gmail.com">Mail</a><br>
+                <a href="tel:+1(647)510-6678">SmS</a>
+            </footer>
+            </div>
+            <script src="script.js"></script>
+    </body>
+</html>
